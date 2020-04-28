@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -x
+
+java -Xmx4096M -cp "`echo $SCRIPT_PATH`" SummarizeAlignments $1 $2
